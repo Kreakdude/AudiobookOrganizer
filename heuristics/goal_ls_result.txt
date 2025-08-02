@@ -1,0 +1,348 @@
+/media/audiobooks/scripted_organized/Brandon Sanderson/:
+The Stormlight Archive (Published by Audible)/
+The Stormlight Archive (Published by Graphic Audio)/
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Audible):
+4 - Rhythm of War/
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Audible)/4 - Rhythm of War:
+Rhythm of War.m4b
+Rhythm of War Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio):
+1 - The Way of Kings/
+2 - Words of Radiance/
+2.5 - Edgedancer/
+3 - Oathbringer/
+3.5 - Dawnshard/
+4 - Rhythm of War (Published by Graphic Audio)/
+5 - Wind and Truth/
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/1 - The Way of Kings:
+The Way of Kings (1 of 5)/
+The Way of Kings (2 of 5)/
+The Way of Kings (3 of 5)/
+The Way of Kings (4 of 5)/
+The Way of Kings (5 of 5)/
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/1 - The Way of Kings/The Way of Kings (1 of 5):
+The Way of Kings Part 1 of 5 Track 01 of 20.mp3
+The Way of Kings Part 1 of 5 Track 02 of 20.mp3
+The Way of Kings Part 1 of 5 Track 03 of 20.mp3
+The Way of Kings Part 1 of 5 Track 04 of 20.mp3
+The Way of Kings Part 1 of 5 Track 05 of 20.mp3
+The Way of Kings Part 1 of 5 Track 06 of 20.mp3
+The Way of Kings Part 1 of 5 Track 07 of 20.mp3
+The Way of Kings Part 1 of 5 Track 08 of 20.mp3
+The Way of Kings Part 1 of 5 Track 09 of 20.mp3
+The Way of Kings Part 1 of 5 Track 10 of 20.mp3
+The Way of Kings Part 1 of 5 Track 11 of 20.mp3
+The Way of Kings Part 1 of 5 Track 12 of 20.mp3
+The Way of Kings Part 1 of 5 Track 13 of 20.mp3
+The Way of Kings Part 1 of 5 Track 14 of 20.mp3
+The Way of Kings Part 1 of 5 Track 15 of 20.mp3
+The Way of Kings Part 1 of 5 Track 16 of 20.mp3
+The Way of Kings Part 1 of 5 Track 17 of 20.mp3
+The Way of Kings Part 1 of 5 Track 18 of 20.mp3
+The Way of Kings Part 1 of 5 Track 19 of 20.mp3
+The Way of Kings Part 1 of 5 Track 20 of 20.mp3
+The Way of Kings (1 of 5) Cover.jpg
+playlist.ll
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/1 - The Way of Kings/The Way of Kings (2 of 5):
+The Way of Kings Part 2 of 5 Track 01 of 16.mp3
+The Way of Kings Part 2 of 5 Track 02 of 16.mp3
+The Way of Kings Part 2 of 5 Track 03 of 16.mp3
+The Way of Kings Part 2 of 5 Track 04 of 16.mp3
+The Way of Kings Part 2 of 5 Track 05 of 16.mp3
+The Way of Kings Part 2 of 5 Track 06 of 16.mp3
+The Way of Kings Part 2 of 5 Track 07 of 16.mp3
+The Way of Kings Part 2 of 5 Track 08 of 16.mp3
+The Way of Kings Part 2 of 5 Track 09 of 16.mp3
+The Way of Kings Part 2 of 5 Track 10 of 16.mp3
+The Way of Kings Part 2 of 5 Track 11 of 16.mp3
+The Way of Kings Part 2 of 5 Track 12 of 16.mp3
+The Way of Kings Part 2 of 5 Track 13 of 16.mp3
+The Way of Kings Part 2 of 5 Track 14 of 16.mp3
+The Way of Kings Part 2 of 5 Track 15 of 16.mp3
+The Way of Kings Part 2 of 5 Track 16 of 16.mp3
+The Way of Kings (2 of 5) Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/1 - The Way of Kings/The Way of Kings (3 of 5):
+The Way of Kings Part 3 of 5 Track 01 of 07.mp3
+The Way of Kings Part 3 of 5 Track 02 of 07.mp3
+The Way of Kings Part 3 of 5 Track 03 of 07.mp3
+The Way of Kings Part 3 of 5 Track 04 of 07.mp3
+The Way of Kings Part 3 of 5 Track 05 of 07.mp3
+The Way of Kings Part 3 of 5 Track 06 of 07.mp3
+The Way of Kings Part 3 of 5 Track 07 of 07.mp3
+The Way of Kings (3 of 5) Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/1 - The Way of Kings/The Way of Kings (4 of 5):
+The Way of Kings Part 4 of 5 Track 01 of 19.mp3
+The Way of Kings Part 4 of 5 Track 02 of 19.mp3
+The Way of Kings Part 4 of 5 Track 03 of 19.mp3
+The Way of Kings Part 4 of 5 Track 04 of 19.mp3
+The Way of Kings Part 4 of 5 Track 05 of 19.mp3
+The Way of Kings Part 4 of 5 Track 06 of 19.mp3
+The Way of Kings Part 4 of 5 Track 07 of 19.mp3
+The Way of Kings Part 4 of 5 Track 08 of 19.mp3
+The Way of Kings Part 4 of 5 Track 09 of 19.mp3
+The Way of Kings Part 4 of 5 Track 10 of 19.mp3
+The Way of Kings Part 4 of 5 Track 11 of 19.mp3
+The Way of Kings Part 4 of 5 Track 12 of 19.mp3
+The Way of Kings Part 4 of 5 Track 13 of 19.mp3
+The Way of Kings Part 4 of 5 Track 14 of 19.mp3
+The Way of Kings Part 4 of 5 Track 15 of 19.mp3
+The Way of Kings Part 4 of 5 Track 16 of 19.mp3
+The Way of Kings Part 4 of 5 Track 17 of 19.mp3
+The Way of Kings Part 4 of 5 Track 18 of 19.mp3
+The Way of Kings Part 4 of 5 Track 19 of 19.mp3
+The Way of Kings (4 of 5) Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/1 - The Way of Kings/The Way of Kings (5 of 5):
+The Way of Kings Part 5 of 5 Track 01 of 23.mp3
+The Way of Kings Part 5 of 5 Track 02 of 23.mp3
+The Way of Kings Part 5 of 5 Track 03 of 23.mp3
+The Way of Kings Part 5 of 5 Track 04 of 23.mp3
+The Way of Kings Part 5 of 5 Track 05 of 23.mp3
+The Way of Kings Part 5 of 5 Track 06 of 23.mp3
+The Way of Kings Part 5 of 5 Track 07 of 23.mp3
+The Way of Kings Part 5 of 5 Track 08 of 23.mp3
+The Way of Kings Part 5 of 5 Track 09 of 23.mp3
+The Way of Kings Part 5 of 5 Track 10 of 23.mp3
+The Way of Kings Part 5 of 5 Track 11 of 23.mp3
+The Way of Kings Part 5 of 5 Track 12 of 23.mp3
+The Way of Kings Part 5 of 5 Track 13 of 23.mp3
+The Way of Kings Part 5 of 5 Track 14 of 23.mp3
+The Way of Kings Part 5 of 5 Track 15 of 23.mp3
+The Way of Kings Part 5 of 5 Track 16 of 23.mp3
+The Way of Kings Part 5 of 5 Track 17 of 23.mp3
+The Way of Kings Part 5 of 5 Track 18 of 23.mp3
+The Way of Kings Part 5 of 5 Track 19 of 23.mp3
+The Way of Kings Part 5 of 5 Track 20 of 23.mp3
+The Way of Kings Part 5 of 5 Track 21 of 23.mp3
+The Way of Kings Part 5 of 5 Track 22 of 23.mp3
+The Way of Kings Part 5 of 5 Track 23 of 23.mp3
+The Way of Kings (5 of 5) Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/2 - Words of Radiance:
+Words of Radiance (1 of 5)/
+Words of Radiance (2 of 5)/
+Words of Radiance (5 of 5)/
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/2 - Words of Radiance/Words of Radiance (1 of 5):
+Words of Radiance Part 1 of 5 Track 001 of 108.mp3
+Words of Radiance Part 1 of 5 Track 002 of 108.mp3
+Words of Radiance Part 1 of 5 Track 003 of 108.mp3
+Words of Radiance Part 1 of 5 Track 004 of 108.mp3
+Words of Radiance Part 1 of 5 Track 005 of 108.mp3
+Words of Radiance Part 1 of 5 Track 006 of 108.mp3
+Words of Radiance Part 1 of 5 Track 007 of 108.mp3
+Words of Radiance Part 1 of 5 Track 008 of 108.mp3
+Words of Radiance Part 1 of 5 Track 009 of 108.mp3
+Words of Radiance Part 1 of 5 Track 010 of 108.mp3
+Words of Radiance Part 1 of 5 Track 011 of 108.mp3
+Words of Radiance Part 1 of 5 Track 012 of 108.mp3
+Words of Radiance Part 1 of 5 Track 013 of 108.mp3
+Words of Radiance Part 1 of 5 Track 014 of 108.mp3
+Words of Radiance Part 1 of 5 Track 015 of 108.mp3
+Words of Radiance Part 1 of 5 Track 016 of 108.mp3
+Words of Radiance Part 1 of 5 Track 017 of 108.mp3
+Words of Radiance Part 1 of 5 Track 018 of 108.mp3
+Words of Radiance Part 1 of 5 Track 019 of 108.mp3
+Words of Radiance Part 1 of 5 Track 020 of 108.mp3
+Words of Radiance Part 1 of 5 Track 021 of 108.mp3
+Words of Radiance Part 1 of 5 Track 022 of 108.mp3
+Words of Radiance Part 1 of 5 Track 023 of 108.mp3
+Words of Radiance Part 1 of 5 Track 024 of 108.mp3
+Words of Radiance Part 1 of 5 Track 025 of 108.mp3
+Words of Radiance Part 1 of 5 Track 026 of 108.mp3
+Words of Radiance Part 1 of 5 Track 027 of 108.mp3
+Words of Radiance Part 1 of 5 Track 028 of 108.mp3
+Words of Radiance Part 1 of 5 Track 029 of 108.mp3
+Words of Radiance Part 1 of 5 Track 030 of 108.mp3
+Words of Radiance Part 1 of 5 Track 031 of 108.mp3
+Words of Radiance Part 1 of 5 Track 032 of 108.mp3
+Words of Radiance Part 1 of 5 Track 033 of 108.mp3
+Words of Radiance Part 1 of 5 Track 034 of 108.mp3
+Words of Radiance Part 1 of 5 Track 035 of 108.mp3
+Words of Radiance Part 1 of 5 Track 036 of 108.mp3
+Words of Radiance Part 1 of 5 Track 037 of 108.mp3
+Words of Radiance Part 1 of 5 Track 038 of 108.mp3
+Words of Radiance Part 1 of 5 Track 039 of 108.mp3
+Words of Radiance Part 1 of 5 Track 040 of 108.mp3
+Words of Radiance Part 1 of 5 Track 041 of 108.mp3
+Words of Radiance Part 1 of 5 Track 042 of 108.mp3
+Words of Radiance Part 1 of 5 Track 043 of 108.mp3
+Words of Radiance Part 1 of 5 Track 044 of 108.mp3
+Words of Radiance Part 1 of 5 Track 045 of 108.mp3
+Words of Radiance Part 1 of 5 Track 046 of 108.mp3
+Words of Radiance Part 1 of 5 Track 047 of 108.mp3
+Words of Radiance Part 1 of 5 Track 048 of 108.mp3
+Words of Radiance Part 1 of 5 Track 049 of 108.mp3
+Words of Radiance Part 1 of 5 Track 050 of 108.mp3
+Words of Radiance Part 1 of 5 Track 051 of 108.mp3
+Words of Radiance Part 1 of 5 Track 052 of 108.mp3
+Words of Radiance Part 1 of 5 Track 053 of 108.mp3
+Words of Radiance Part 1 of 5 Track 054 of 108.mp3
+Words of Radiance Part 1 of 5 Track 055 of 108.mp3
+Words of Radiance Part 1 of 5 Track 056 of 108.mp3
+Words of Radiance Part 1 of 5 Track 057 of 108.mp3
+Words of Radiance Part 1 of 5 Track 058 of 108.mp3
+Words of Radiance Part 1 of 5 Track 059 of 108.mp3
+Words of Radiance Part 1 of 5 Track 060 of 108.mp3
+Words of Radiance Part 1 of 5 Track 061 of 108.mp3
+Words of Radiance Part 1 of 5 Track 062 of 108.mp3
+Words of Radiance Part 1 of 5 Track 063 of 108.mp3
+Words of Radiance Part 1 of 5 Track 064 of 108.mp3
+Words of Radiance Part 1 of 5 Track 065 of 108.mp3
+Words of Radiance Part 1 of 5 Track 066 of 108.mp3
+Words of Radiance Part 1 of 5 Track 067 of 108.mp3
+Words of Radiance Part 1 of 5 Track 068 of 108.mp3
+Words of Radiance Part 1 of 5 Track 069 of 108.mp3
+Words of Radiance Part 1 of 5 Track 070 of 108.mp3
+Words of Radiance Part 1 of 5 Track 071 of 108.mp3
+Words of Radiance Part 1 of 5 Track 072 of 108.mp3
+Words of Radiance Part 1 of 5 Track 073 of 108.mp3
+Words of Radiance Part 1 of 5 Track 074 of 108.mp3
+Words of Radiance Part 1 of 5 Track 075 of 108.mp3
+Words of Radiance Part 1 of 5 Track 076 of 108.mp3
+Words of Radiance Part 1 of 5 Track 077 of 108.mp3
+Words of Radiance Part 1 of 5 Track 078 of 108.mp3
+Words of Radiance Part 1 of 5 Track 079 of 108.mp3
+Words of Radiance Part 1 of 5 Track 080 of 108.mp3
+Words of Radiance Part 1 of 5 Track 081 of 108.mp3
+Words of Radiance Part 1 of 5 Track 082 of 108.mp3
+Words of Radiance Part 1 of 5 Track 083 of 108.mp3
+Words of Radiance Part 1 of 5 Track 084 of 108.mp3
+Words of Radiance Part 1 of 5 Track 085 of 108.mp3
+Words of Radiance Part 1 of 5 Track 086 of 108.mp3
+Words of Radiance Part 1 of 5 Track 087 of 108.mp3
+Words of Radiance Part 1 of 5 Track 088 of 108.mp3
+Words of Radiance Part 1 of 5 Track 089 of 108.mp3
+Words of Radiance Part 1 of 5 Track 090 of 108.mp3
+Words of Radiance Part 1 of 5 Track 091 of 108.mp3
+Words of Radiance Part 1 of 5 Track 092 of 108.mp3
+Words of Radiance Part 1 of 5 Track 093 of 108.mp3
+Words of Radiance Part 1 of 5 Track 094 of 108.mp3
+Words of Radiance Part 1 of 5 Track 095 of 108.mp3
+Words of Radiance Part 1 of 5 Track 096 of 108.mp3
+Words of Radiance Part 1 of 5 Track 097 of 108.mp3
+Words of Radiance Part 1 of 5 Track 098 of 108.mp3
+Words of Radiance Part 1 of 5 Track 099 of 108.mp3
+Words of Radiance Part 1 of 5 Track 100 of 108.mp3
+Words of Radiance Part 1 of 5 Track 101 of 108.mp3
+Words of Radiance Part 1 of 5 Track 102 of 108.mp3
+Words of Radiance Part 1 of 5 Track 103 of 108.mp3
+Words of Radiance Part 1 of 5 Track 104 of 108.mp3
+Words of Radiance Part 1 of 5 Track 105 of 108.mp3
+Words of Radiance Part 1 of 5 Track 106 of 108.mp3
+Words of Radiance Part 1 of 5 Track 107 of 108.mp3
+Words of Radiance Part 1 of 5 Track 108 of 108.mp3
+Words of Radiance (1 of 5) Cover.jpg
+playlist.ll
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/2 - Words of Radiance/Words of Radiance (2 of 5):
+Words of Radiance Part 2 of 5 Track 01 of 30.mp3
+Words of Radiance Part 2 of 5 Track 02 of 30.mp3
+Words of Radiance Part 2 of 5 Track 03 of 30.mp3
+Words of Radiance Part 2 of 5 Track 04 of 30.mp3
+Words of Radiance Part 2 of 5 Track 05 of 30.mp3
+Words of Radiance Part 2 of 5 Track 06 of 30.mp3
+Words of Radiance Part 2 of 5 Track 07 of 30.mp3
+Words of Radiance Part 2 of 5 Track 08 of 30.mp3
+Words of Radiance Part 2 of 5 Track 09 of 30.mp3
+Words of Radiance Part 2 of 5 Track 10 of 30.mp3
+Words of Radiance Part 2 of 5 Track 11 of 30.mp3
+Words of Radiance Part 2 of 5 Track 12 of 30.mp3
+Words of Radiance Part 2 of 5 Track 13 of 30.mp3
+Words of Radiance Part 2 of 5 Track 14 of 30.mp3
+Words of Radiance Part 2 of 5 Track 15 of 30.mp3
+Words of Radiance Part 2 of 5 Track 16 of 30.mp3
+Words of Radiance Part 2 of 5 Track 17 of 30.mp3
+Words of Radiance Part 2 of 5 Track 18 of 30.mp3
+Words of Radiance Part 2 of 5 Track 19 of 30.mp3
+Words of Radiance Part 2 of 5 Track 20 of 30.mp3
+Words of Radiance Part 2 of 5 Track 21 of 30.mp3
+Words of Radiance Part 2 of 5 Track 22 of 30.mp3
+Words of Radiance Part 2 of 5 Track 23 of 30.mp3
+Words of Radiance Part 2 of 5 Track 24 of 30.mp3
+Words of Radiance Part 2 of 5 Track 25 of 30.mp3
+Words of Radiance Part 2 of 5 Track 26 of 30.mp3
+Words of Radiance Part 2 of 5 Track 27 of 30.mp3
+Words of Radiance Part 2 of 5 Track 28 of 30.mp3
+Words of Radiance Part 2 of 5 Track 29 of 30.mp3
+Words of Radiance Part 2 of 5 Track 30 of 30.mp3
+Words of Radiance (2 of 5) Cover.jpg
+playlist.ll
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/2 - Words of Radiance/Words of Radiance (5 of 5):
+Words of Radiance (5 of 5).mp3
+Words of Radiance (5 of 5) Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/2.5 - Edgedancer:
+Edgedancer.mp3
+Edgedancer Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/3 - Oathbringer:
+Oathbringer (1 of 6)/
+Oathbringer (2 of 6)/
+Oathbringer (3 of 6)/
+Oathbringer (4 of 6)/
+Oathbringer (5 of 6)/
+Oathbringer (6 of 6)/
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/3 - Oathbringer/Oathbringer (1 of 6):
+Oathbringer Part 1 of 6 Track 1 of 6.mp3
+Oathbringer Part 1 of 6 Track 2 of 6.mp3
+Oathbringer Part 1 of 6 Track 3 of 6.mp3
+Oathbringer Part 1 of 6 Track 4 of 6.mp3
+Oathbringer Part 1 of 6 Track 5 of 6.mp3
+Oathbringer Part 1 of 6 Track 6 of 6.mp3
+Oathbringer (1 of 6) Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/3 - Oathbringer/Oathbringer (2 of 6):
+Oathbringer Part 2 of 6 Track 1 of 6.mp3
+Oathbringer Part 2 of 6 Track 2 of 6.mp3
+Oathbringer Part 2 of 6 Track 3 of 6.mp3
+Oathbringer Part 2 of 6 Track 4 of 6.mp3
+Oathbringer Part 2 of 6 Track 5 of 6.mp3
+Oathbringer Part 2 of 6 Track 6 of 6.mp3
+Oathbringer (2 of 6) Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/3 - Oathbringer/Oathbringer (3 of 6):
+Oathbringer (3 of 6).mp3
+Oathbringer (3 of 6) Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/3 - Oathbringer/Oathbringer (4 of 6):
+Oathbringer (4 of 6).mp3
+Oathbringer (4 of 6) Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/3 - Oathbringer/Oathbringer (5 of 6):
+Oathbringer (5 of 6).mp3
+Oathbringer (5 of 6) Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/3 - Oathbringer/Oathbringer (6 of 6):
+Oathbringer (6 of 6).mp3
+Oathbringer (6 of 6) Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/3.5 - Dawnshard:
+Dawnshard.m4b
+Dawnshard Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/4 - Rhythm of War (Published by Graphic Audio):
+Rhythm of War.m4b
+Rhythm of War Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/5 - Wind and Truth:
+Wind and Truth (1 of 2)/
+Wind and Truth (2 of 2)/
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/5 - Wind and Truth/Wind and Truth (1 of 2):
+Wind and Truth (1 of 2).m4b
+Wind and Truth (1 of 2) Cover.jpg
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Stormlight Archive (Published by Graphic Audio)/5 - Wind and Truth/Wind and Truth (2 of 2):
+Wind and Truth (2 of 2).m4b
+Wind and Truth (2 of 2) Cover.jpg

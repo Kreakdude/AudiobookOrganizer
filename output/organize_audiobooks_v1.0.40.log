@@ -1,0 +1,859 @@
+[INFO] --- Starting Audiobook Organization (Script Version: 1.0.40) ---
+[INFO] Source Root Directory: '/media/audiobooks/scripted'
+[INFO] Destination Base Directory: '/media/audiobooks/scripted_organized'
+[INFO] Files not organized will be hard-linked to: '/media/audiobooks/scripted_leftbehind'
+[INFO] Script data (logs, cache) located in: '/media/audiobooks/.audiobook_organizer_data'
+[INFO] Important: Files will be hard-linked, original files will remain untouched.
+[INFO] Hard links do not duplicate disk space, but require source and destination to be on the same filesystem.
+[INFO] ------------------------------------------------------------
+[WARNING] Warning: Destination directory '/media/audiobooks/scripted_organized' already exists.
+[INFO] Proceeding with emptying destination directory due to --force-empty flag.
+[INFO] Attempting to remove and recreate '/media/audiobooks/scripted_organized'...
+[INFO] Directory '/media/audiobooks/scripted_organized' emptied and recreated.
+[WARNING] Warning: Leftbehind directory '/media/audiobooks/scripted_leftbehind' already exists. Its contents will be cleared for this run.
+[INFO] Attempting to remove and recreate '/media/audiobooks/scripted_leftbehind'...
+[INFO] Directory '/media/audiobooks/scripted_leftbehind' emptied and recreated.
+[INFO] Loaded metadata cache from '/media/audiobooks/.audiobook_organizer_data/audiobook_metadata_cache.json'.
+[INFO] Pre-scanning physical book folders to collect initial metadata (parallelized)...
+[INFO]   Info: Pre-scanning folder: 'Stormlight Archive - Dawnshard [Audible]'
+[INFO]   Info: Pre-scanning folder: 'Stormlight Archive - Edgedancer [Graphic Audio]'
+[INFO]   Info: Pre-scanning folder: 'Oahbringer (1 of 6)'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Dawnshard.m4b'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'Stormlight Archive - Dawnshard [Audible]': {'album': 'Dawnshard', 'artist': 'Brandon Sanderson', 'title': 'Dawnshard', 'genre': 'Fantasy', 'comment': "From Brandon Sanderson—author of the #1 New York Times bestselling Stormlight Archive and its fourth massive installment, Rhythm of War—comes a new hefty novella, Dawnshard. Taking place between Oathbringer and Rhythm of War, this tale (like Edgedancer before it) gives often-overshadowed characters their own chance to shine. When a ghost ship is discovered, its crew presumed dead after trying to reach the storm-shrouded island Akina, Navani Kholin must send an expedition to make sure the island hasn't fallen into enemy hands. Knights Radiant who fly too near find their Stormlight suddenly drained, so the voyage must be by sea. Shipowner Rysn Ftori lost the use of her legs but gained the companionship of Chiri-Chiri, a Stormlight-ingesting winged larkin, a species once thought extinct. Now Rysn's pet is ill, and any hope for Chiri-Chiri’s recovery can be found only at the ancestral home of the larkin: Akinah. With the help of Lopen, the formerly one-armed Windrunner, Rysn must accept Navani's quest and sail into the perilous storm from which no one has returned alive. If the crew cannot uncover the secrets of the hidden island city before the wrath of its ancient guardians falls upon them, the fate of Roshar and the entire Cosmere hangs in the balance. Adapted from the novel and produced with a full cast of actors, immersive sound effects and cinematic music!", 'track': '1', 'composer': 'Graphic Audio', 'copyright': 'Graphic Audio', 'date': '2022', 'author': 'Brandon Sanderson', 'publisher': 'Graphic Audio'}
+[INFO]   Info: Using cached metadata for 'The Stormlight Archive [Edgedancer] [01].mp3'
+[INFO]   Info: Pre-scanning folder: 'Oahbringer (4 of 6)'
+[INFO]   Info: Pre-scanning folder: 'Oahbringer (5 of 6)'
+[INFO]   Info: Pre-scanning folder: 'Oahbringer (3 of 6)'
+[INFO]   Info: Pre-scanning folder: 'Oahbringer (2 of 6)'
+[INFO]   Info: Using cached metadata for '01 - STORMLIGHT0301P01.mp3'
+[DEBUG]   DEBUG: Publisher after normalization: 'Graphic Audio' for 'Stormlight Archive - Dawnshard [Audible]'
+[INFO]   Info: Using cached metadata for 'The Stormlight Archive [Edgedancer] [02].mp3'
+[INFO]   Info: Using cached metadata for '4.mp3'
+[INFO]   Info: Pre-scanning folder: 'Oahbringer (6 of 6)'
+[INFO]   Info: Using cached metadata for 'The Stormlight Archive [Edgedancer] [03].mp3'
+[INFO]   Info: Using cached metadata for '5.mp3'
+[INFO]   Info: Using cached metadata for '02 - STORMLIGHT0301P02.mp3'
+[INFO]   Info: Using cached metadata for '03 - STORMLIGHT0301P03.mp3'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'Stormlight Archive - Edgedancer [Graphic Audio]': {'album': 'Brandon Sanderson', 'title': 'Edgedancer', 'artist': 'Brandon Sanderson', 'track': '1', 'genre': 'Fantasy; Fiction; High Fantasy', 'date': '2016', 'author': 'Brandon Sanderson'}
+[INFO]   Info: Using cached metadata for '04 - STORMLIGHT0301P04.mp3'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'Oahbringer (4 of 6)': {'album': 'Brandon Sanderson', 'title': 'Oathbringer (4 of 6)', 'artist': 'Brandon Sanderson', 'track': '1', 'genre': 'Fantasy; Fiction', 'date': '2018', 'author': 'Brandon Sanderson'}
+[INFO]   Info: Using cached metadata for '05 - STORMLIGHT0301P05.mp3'
+[INFO]   Info: Using cached metadata for '06 - STORMLIGHT0301P06.mp3'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'Oahbringer (1 of 6)': {'album': 'Brandon Sanderson', 'title': 'Oathbringer (1 of 6)', 'artist': 'Brandon Sanderson', 'track': '1', 'genre': 'Fantasy; Fiction; High Fantasy', 'date': '2018', 'author': 'Brandon Sanderson'}
+[DEBUG]   DEBUG: Extracted part info for 'Stormlight Archive - Dawnshard [Audible]': designation='None', num=None, total=None
+[DEBUG]   DEBUG: Worker cache updates for 'Stormlight Archive - Dawnshard [Audible]': {}
+[INFO]   Info: Using cached metadata for '3.mp3'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'Oahbringer (3 of 6)': {'album': 'Brandon Sanderson', 'title': 'Oathbringer (3 of 6)', 'artist': 'Brandon Sanderson', 'track': '1', 'genre': 'Fantasy; Fiction', 'date': '2018', 'author': 'Brandon Sanderson'}
+[DEBUG]   DEBUG: Extracted part info for 'Oahbringer (4 of 6)': designation='Part', num=4.0, total=6
+[DEBUG]   DEBUG: Worker cache updates for 'Oahbringer (4 of 6)': {}
+[DEBUG]   DEBUG: Extracted part info for 'Stormlight Archive - Edgedancer [Graphic Audio]': designation='None', num=None, total=None
+[DEBUG]   DEBUG: Worker cache updates for 'Stormlight Archive - Edgedancer [Graphic Audio]': {}
+[DEBUG]   DEBUG: Extracted part info for 'Oahbringer (1 of 6)': designation='Part', num=1.0, total=6
+[DEBUG]   DEBUG: Worker cache updates for 'Oahbringer (1 of 6)': {}
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'Oahbringer (5 of 6)': {'album': 'Brandon Sanderson', 'title': 'Oathbringer (5 of 6)', 'artist': 'Brandon Sanderson', 'track': '1', 'genre': 'Fantasy; Fiction', 'date': '2018', 'author': 'Brandon Sanderson'}
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0302 - 001.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0302 - 002.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0302 - 003.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0302 - 004.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0302 - 005.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0302 - 006.mp3'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'Oahbringer (2 of 6)': {'album': 'Brandon Sanderson', 'title': 'Oathbringer (2 of 6)', 'artist': 'Brandon Sanderson', 'track': '1', 'genre': 'Fantasy; Fiction', 'date': '2018', 'author': 'Brandon Sanderson'}
+[DEBUG]   DEBUG: Extracted part info for 'Oahbringer (3 of 6)': designation='Part', num=3.0, total=6
+[DEBUG]   DEBUG: Worker cache updates for 'Oahbringer (3 of 6)': {}
+[INFO]   Info: Pre-scanning folder: 'Stormlight Archive - Rhythm of War [Audible]'
+[DEBUG]   DEBUG: Extracted part info for 'Oahbringer (5 of 6)': designation='Part', num=5.0, total=6
+[DEBUG]   DEBUG: Worker cache updates for 'Oahbringer (5 of 6)': {}
+[DEBUG]   DEBUG: Extracted part info for 'Oahbringer (2 of 6)': designation='Part', num=2.0, total=6
+[DEBUG]   DEBUG: Worker cache updates for 'Oahbringer (2 of 6)': {}
+[INFO]   Info: Pre-scanning folder: 'Stormlight Archive - Rhythm of War [Graphic Audio]'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Rhythm of War (0).m4b'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'Stormlight Archive - Rhythm of War [Audible]': {'album': 'Rhythm of War', 'artist': 'Brandon Sanderson', 'title': 'Rhythm of War', 'genre': 'Fantasy; Fiction; High Fantasy', 'comment': "The eagerly awaited sequel to the #1 New York Times bestselling Oathbringer, from epic fantasy author Brandon Sanderson After forming a coalition of human resistance against the enemy invasion, Dalinar Kholin and his Knights Radiant have spent a year fighting a protracted, brutal war. Neither side has gained an advantage, and the threat of a betrayal by Dalinar's crafty ally Taravangian looms over every strategic move. Now, as new technological discoveries by Navani Kholin's scholars begin to change the face of the war, the enemy prepares a bold and dangerous operation. The arms race that follows will challenge the very core of the Radiant ideals, and potentially reveal the secrets of the ancient tower that was once the heart of their strength. At the same time that Kaladin Stormblessed must come to grips with his changing role within the Knights Radiant, his Windrunners face their own problem: As more and more deadly enemy Fused awaken to wage war, no more honorspren are willing to bond with humans to increase the number of Radiants. Adolin and Shallan must lead the coalition’s envoy to the honorspren stronghold of Lasting Integrity and either convince the spren to join the cause against the evil god Odium, or personally face the storm of failure.", 'track': '1', 'composer': 'Kate Reading, Michael Kramer', 'copyright': 'Audible', 'date': '2020', 'author': 'Brandon Sanderson', 'publisher': 'Audible'}
+[DEBUG]   DEBUG: Publisher after normalization: 'Audible' for 'Stormlight Archive - Rhythm of War [Audible]'
+[DEBUG]   DEBUG: Extracted part info for 'Stormlight Archive - Rhythm of War [Audible]': designation='None', num=None, total=None
+[DEBUG]   DEBUG: Worker cache updates for 'Stormlight Archive - Rhythm of War [Audible]': {}
+[INFO]   Info: Using cached metadata for '6.mp3'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'Oahbringer (6 of 6)': {'album': 'Brandon Sanderson', 'title': 'Oathbringer (6 of 6)', 'artist': 'Brandon Sanderson', 'track': '1', 'genre': 'Fantasy; Fiction', 'date': '2018', 'author': 'Brandon Sanderson'}
+[INFO]   Info: Pre-scanning folder: 'The Way of Kings (Graphic Audio)(1of 5)'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0401.m4b'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'Stormlight Archive - Rhythm of War [Graphic Audio]': {'album': 'Rhythm of War (1 of 6)', 'artist': 'Brandon Sanderson', 'title': 'Rhythm of War (1 of 6)', 'genre': 'Fantasy; High Fantasy', 'comment': 'After forming a coalition of human resistance against the enemy invasion, Dalinar Kholin and his Knights Radiant have spent a year fighting a protracted, brutal war. Neither side has gained an advantage, and the threat of a betrayal by Dalinar’s crafty ally Taravangian looms over every strategic move. Now, as new technological discoveries by Navani Kholin’s scholars begin to change the face of the war, the enemy prepares a bold and dangerous operation. The arms race that follows will challenge the very core of the Radiant ideals, and potentially reveal the secrets of the ancient tower that was once the heart of their strength. At the same time that Kaladin Stormblessed must come to grips with his changing role within the Knights Radiant, his Windrunners face their own problem: As more and more deadly enemy Fused awaken to wage war, no more honorspren are willing to bond with humans to increase the number of Radiants. Adolin and Shallan must lead the coalition’s envoy to the honorspren stronghold of Lasting Integrity and either convince the spren to join the cause against the evil god Odium, or personally face the storm of failure.', 'track': '1', 'composer': 'Graphic Audio', 'copyright': 'Graphic Audio', 'date': '2020', 'author': 'Brandon Sanderson', 'publisher': 'Graphic Audio'}
+[DEBUG]   DEBUG: Publisher after normalization: 'Graphic Audio' for 'Stormlight Archive - Rhythm of War [Graphic Audio]'
+[DEBUG]   DEBUG: Extracted part info for 'Stormlight Archive - Rhythm of War [Graphic Audio]': designation='None', num=None, total=None
+[DEBUG]   DEBUG: Worker cache updates for 'Stormlight Archive - Rhythm of War [Graphic Audio]': {}
+[INFO]   Info: Pre-scanning folder: 'The Way of Kings (Graphic Audio)(2 of 5)'
+[DEBUG]   DEBUG: Extracted part info for 'Oahbringer (6 of 6)': designation='Part', num=6.0, total=6
+[DEBUG]   DEBUG: Worker cache updates for 'Oahbringer (6 of 6)': {}
+[INFO]   Info: Pre-scanning folder: 'The Way of Kings (Graphic Audio)(3 of 5)'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (1).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (10).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (11).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (12).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (13).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (14).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (15).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (16).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (17).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (18).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (19).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (2).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (20).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (3).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (4).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (5).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (6).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (7).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (8).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (1 of 5) (9).mp3'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'The Way of Kings (Graphic Audio)(1of 5)': {'album': 'Brandon Sanderson', 'title': 'The Way of Kings (1 of 5)', 'artist': 'Brandon Sanderson', 'track': '1', 'genre': 'Fantasy; Fiction; High Fantasy', 'date': '2010', 'author': 'Brandon Sanderson'}
+[DEBUG]   DEBUG: Extracted part info for 'The Way of Kings (Graphic Audio)(1of 5)': designation='Part', num=1.0, total=5
+[DEBUG]   DEBUG: Worker cache updates for 'The Way of Kings (Graphic Audio)(1of 5)': {}
+[INFO]   Info: Pre-scanning folder: 'The Way of Kings (Graphic Audio)(4 of 5)'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (1).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (10).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (11).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (12).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (13).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (14).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (15).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (16).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (2).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (3).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (4).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (5).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (6).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (7).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (8).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (2 of 5) (9).mp3'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'The Way of Kings (Graphic Audio)(2 of 5)': {'album': 'Brandon Sanderson', 'title': 'The Way of Kings (2 of 5)', 'artist': 'Brandon Sanderson', 'track': '1', 'genre': 'Fantasy; Fiction; High Fantasy', 'date': '2010', 'author': 'Brandon Sanderson'}
+[DEBUG]   DEBUG: Extracted part info for 'The Way of Kings (Graphic Audio)(2 of 5)': designation='Part', num=2.0, total=5
+[DEBUG]   DEBUG: Worker cache updates for 'The Way of Kings (Graphic Audio)(2 of 5)': {}
+[INFO]   Info: Pre-scanning folder: 'The Way of Kings (Graphic Audio)(5 of 5)'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0103P01.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0103P02.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0103P03.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0103P04.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0103P05.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0103P06.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0103P07.mp3'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'The Way of Kings (Graphic Audio)(3 of 5)': {'album': 'Brandon Sanderson', 'title': 'The Way of Kings (3 of 5)', 'artist': 'Brandon Sanderson', 'track': '1', 'genre': 'Fantasy; Fiction; High Fantasy', 'date': '2010', 'author': 'Brandon Sanderson'}
+[DEBUG]   DEBUG: Extracted part info for 'The Way of Kings (Graphic Audio)(3 of 5)': designation='Part', num=3.0, total=5
+[DEBUG]   DEBUG: Worker cache updates for 'The Way of Kings (Graphic Audio)(3 of 5)': {}
+[INFO]   Info: Pre-scanning folder: 'Stormlight Archive - Wind and Truth [Graphic Audio]'
+[INFO]   Info: Pre-scanning folder: 'Words of Radiance (1 of 5)'
+[INFO]   Info: Pre-scanning folder: 'Words of Radiance (2of5)'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (1).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (10).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (11).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (12).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (13).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (14).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (15).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (16).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (17).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (18).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (19).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (2).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (3).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (4).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (5).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (6).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (7).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (8).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (4 of 5) (9).mp3'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'The Way of Kings (Graphic Audio)(4 of 5)': {'album': 'Brandon Sanderson', 'title': 'The Way of Kings (4 of 5)', 'artist': 'Brandon Sanderson', 'track': '1', 'genre': 'Fantasy; Fiction; High Fantasy', 'date': '2010', 'author': 'Brandon Sanderson'}
+[DEBUG]   DEBUG: Extracted part info for 'The Way of Kings (Graphic Audio)(4 of 5)': designation='Part', num=4.0, total=5
+[DEBUG]   DEBUG: Worker cache updates for 'The Way of Kings (Graphic Audio)(4 of 5)': {}
+[INFO]   Info: Pre-scanning folder: 'Words of Radiance (5of5)'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (1).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (10).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (11).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (12).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (13).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (14).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (15).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (16).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (17).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (18).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (19).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (2).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (20).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (21).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (22).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (23).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (3).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (4).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (5).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (6).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (7).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (8).mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - The Way of Kings (5 of 5) (9).mp3'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'The Way of Kings (Graphic Audio)(5 of 5)': {'album': 'Brandon Sanderson', 'title': 'The Way of Kings (5 of 5)', 'artist': 'Brandon Sanderson', 'track': '1', 'genre': 'Fantasy; Fiction; High Fantasy', 'date': '2010', 'author': 'Brandon Sanderson'}
+[DEBUG]   DEBUG: Extracted part info for 'The Way of Kings (Graphic Audio)(5 of 5)': designation='Part', num=5.0, total=5
+[DEBUG]   DEBUG: Worker cache updates for 'The Way of Kings (Graphic Audio)(5 of 5)': {}
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0501.m4b'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0502.m4b'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'Stormlight Archive - Wind and Truth [Graphic Audio]': {'album': 'Wind and Truth (2 of 5)', 'artist': 'Brandon Sanderson', 'title': 'Wind and Truth (2 of 5)', 'genre': 'Audiobook', 'comment': 'The long-awaited explosive climax to the first arc of the #1 New York Times bestselling Stormlight Archive―the iconic epic fantasy masterpiece that has sold more than 10 million copies, from acclaimed bestselling author Brandon Sanderson. Dalinar Kholin challenged the evil god Odium to a contest of champions with the future of Roshar on the line. The Knights Radiant have only ten days to prepare―and the sudden ascension of the crafty and ruthless Taravangian to take Odium’s place has thrown everything into disarray. Desperate fighting continues simultaneously worldwide―Adolin in Azir, Sigzil and Venli at the Shattered Plains, and Jasnah in Thaylenah. The former assassin, Szeth, must cleanse his homeland of Shinovar from the dark influence of the Unmade. He is accompanied by Kaladin, who faces a new battle helping Szeth fight his own demons . . . and who must do the same for the insane Herald of the Almighty, Ishar. At the same time, Shallan, Renarin, and Rlain work to unravel the mystery behind the Unmade Ba-Ado-Mishram and her involvement in the enslavement of the singer race and in the ancient Knights Radiant killing their spren. And Dalinar and Navani seek an edge against Odium’s champion that can be found only in the Spiritual Realm, where memory and possibility combine in chaos. The fate of the entire Cosmere hangs in the balance. Adapted from the novel and produced with a full cast of actors, immersive sound effects and cinematic music!', 'track': '2', 'composer': 'Graphic Audio', 'copyright': 'Graphic Audio', 'date': '2025', 'author': 'Brandon Sanderson', 'publisher': 'Graphic Audio'}
+[DEBUG]   DEBUG: Publisher after normalization: 'Graphic Audio' for 'Stormlight Archive - Wind and Truth [Graphic Audio]'
+[DEBUG]   DEBUG: Extracted part info for 'Stormlight Archive - Wind and Truth [Graphic Audio]': designation='None', num=None, total=None
+[DEBUG]   DEBUG: Worker cache updates for 'Stormlight Archive - Wind and Truth [Graphic Audio]': {}
+[DEBUG]   DEBUG: Found OPF file: 'Words of Radiance (2of5) - Brandon Sanderson.opf' in 'Words of Radiance (2of5)'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0205P01.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0205P02.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0205P03.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0205P04.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0205P05.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0205P06.mp3'
+[INFO]   Info: Using cached metadata for 'STORMLIGHT0205P07.mp3'
+[DEBUG]   DEBUG: Combined metadata (first audio file) for 'Words of Radiance (5of5)': {'album': 'Brandon Sanderson', 'title': 'Words of Radiance (5 of 5)', 'artist': 'Brandon Sanderson', 'track': '1', 'genre': 'Fantasy; Fiction; High Fantasy', 'date': '2014', 'author': 'Brandon Sanderson'}
+[DEBUG]   DEBUG: Extracted part info for 'Words of Radiance (5of5)': designation='Part', num=5.0, total=5
+[DEBUG]   DEBUG: Worker cache updates for 'Words of Radiance (5of5)': {}
+[DEBUG]   DEBUG: Found OPF file: 'Words of Radiance (1 of 5).opf' in 'Words of Radiance (1 of 5)'
+[DEBUG]   DEBUG: OPF metadata for 'Words of Radiance (2of5) - Brandon Sanderson.opf': {'title': 'Words of Radiance (2of5)', 'artist': 'Brandon Sanderson', 'author': 'Brandon Sanderson', 'publisher': 'GraphicAudio', 'date': '2014-03-04', 'description': 'Six years ago, the Assassin in White, a hireling of the inscrutable Parshendi, assassinated the Alethi king on the very night a treaty between men and Parshendi was being celebrated. So began the Vengeance Pact among the highprinces of Alethkar and the War of Reckoning against the Parshendi.'}
+[DEBUG]   DEBUG: OPF metadata for 'Words of Radiance (2of5)': {'title': 'Words of Radiance (2of5)', 'artist': 'Brandon Sanderson', 'author': 'Brandon Sanderson', 'publisher': 'GraphicAudio', 'date': '2014-03-04', 'description': 'Six years ago, the Assassin in White, a hireling of the inscrutable Parshendi, assassinated the Alethi king on the very night a treaty between men and Parshendi was being celebrated. So began the Vengeance Pact among the highprinces of Alethkar and the War of Reckoning against the Parshendi.'}
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 01 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 02 of 30.mp3'
+[DEBUG]   DEBUG: OPF metadata for 'Words of Radiance (1 of 5).opf': {'title': 'Words of Radiance (1 of 5)', 'artist': 'Brandon Sanderson', 'author': 'Brandon Sanderson', 'description': 'Six years ago, the Assassin in White, a hireling of the inscrutable Parshendi, assassinated the Alethi king on the very night a treaty between men and Parshendi was being celebrated. So began the Vengeance Pact among the highprinces of Alethkar and the War of Reckoning against the Parshendi.'}
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 03 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 04 of 30.mp3'
+[DEBUG]   DEBUG: OPF metadata for 'Words of Radiance (1 of 5)': {'title': 'Words of Radiance (1 of 5)', 'artist': 'Brandon Sanderson', 'author': 'Brandon Sanderson', 'description': 'Six years ago, the Assassin in White, a hireling of the inscrutable Parshendi, assassinated the Alethi king on the very night a treaty between men and Parshendi was being celebrated. So began the Vengeance Pact among the highprinces of Alethkar and the War of Reckoning against the Parshendi.'}
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 05 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 06 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 001 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 07 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 002 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 08 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 003 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 09 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 004 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 10 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 005 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 11 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 006 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 12 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 007 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 13 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 008 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 14 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 009 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 15 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 010 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 16 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 011 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 17 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 012 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 18 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 013 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 19 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 014 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 20 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 015 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 21 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 016 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 22 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 017 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 23 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 018 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 24 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 019 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 25 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 020 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 26 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 021 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 27 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 022 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 28 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 023 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 29 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 024 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (2of5) Part 30 of 30.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 025 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 026 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 027 of 108.mp3'
+[DEBUG]   DEBUG: Combined metadata (OPF prioritized) for 'Words of Radiance (2of5)': {'title': 'Words of Radiance (2of5)', 'artist': 'Brandon Sanderson', 'author': 'Brandon Sanderson', 'publisher': 'GraphicAudio', 'date': '2014-03-04', 'description': 'Six years ago, the Assassin in White, a hireling of the inscrutable Parshendi, assassinated the Alethi king on the very night a treaty between men and Parshendi was being celebrated. So began the Vengeance Pact among the highprinces of Alethkar and the War of Reckoning against the Parshendi.', 'album': 'Brandon Sanderson', 'genre': 'Fantasy; Fiction; High Fantasy'}
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 028 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 029 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 030 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 031 of 108.mp3'
+[DEBUG]   DEBUG: Publisher after normalization: 'Graphic Audio' for 'Words of Radiance (2of5)'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 032 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 033 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 034 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 035 of 108.mp3'
+[DEBUG]   DEBUG: Extracted part info for 'Words of Radiance (2of5)': designation='Part', num=2.0, total=5
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 036 of 108.mp3'
+[DEBUG]   DEBUG: Worker cache updates for 'Words of Radiance (2of5)': {}
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 037 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 038 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 039 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 040 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 041 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 042 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 043 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 044 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 045 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 046 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 047 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 048 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 049 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 050 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 051 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 052 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 053 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 054 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 055 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 056 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 057 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 058 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 059 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 060 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 061 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 062 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 063 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 064 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 065 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 066 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 067 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 068 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 069 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 070 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 071 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 072 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 073 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 074 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 075 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 076 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 077 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 078 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 079 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 080 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 081 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 082 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 083 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 084 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 085 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 086 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 087 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 088 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 089 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 090 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 091 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 092 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 093 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 094 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 095 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 096 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 097 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 098 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 099 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 100 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 101 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 102 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 103 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 104 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 105 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 106 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 107 of 108.mp3'
+[INFO]   Info: Using cached metadata for 'Brandon Sanderson - Words of Radiance (1 of 5) Part 108 of 108.mp3'
+[DEBUG]   DEBUG: Combined metadata (OPF prioritized) for 'Words of Radiance (1 of 5)': {'title': 'Words of Radiance (1 of 5)', 'artist': 'Brandon Sanderson', 'author': 'Brandon Sanderson', 'description': 'Six years ago, the Assassin in White, a hireling of the inscrutable Parshendi, assassinated the Alethi king on the very night a treaty between men and Parshendi was being celebrated. So began the Vengeance Pact among the highprinces of Alethkar and the War of Reckoning against the Parshendi.', 'album': 'Brandon Sanderson', 'genre': 'Fantasy; Fiction; High Fantasy', 'date': '2014'}
+[DEBUG]   DEBUG: Extracted part info for 'Words of Radiance (1 of 5)': designation='Part', num=1.0, total=5
+[DEBUG]   DEBUG: Worker cache updates for 'Words of Radiance (1 of 5)': {}
+[INFO] Pre-scan complete.
+[INFO] Grouping physical folders into logical books...
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Dawnshard', title: 'Dawnshard'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'None', series_number_from_extracted_patterns: None
+[DEBUG]   DEBUG: Using extracted series_book_num: None
+[DEBUG]   DEBUG: overall_book_title_raw: 'Dawnshard'
+[DEBUG]   DEBUG: temp_core_title (after series strip): 'Dawnshard'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): 'Dawnshard'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: 'Dawnshard'
+[DEBUG]   DEBUG: Generated logical_book_key for 'Stormlight Archive - Dawnshard [Audible]': ('Brandon Sanderson', None, None, 'Graphic Audio')
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Brandon Sanderson', title: 'Oathbringer (4 of 6)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'Oathbringer (', series_number_from_extracted_patterns: 4.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 4.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'Oathbringer (4 of 6)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '4 of 6)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '4 of 6)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '4 of 6)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'Oahbringer (4 of 6)': ('Brandon Sanderson', 'Oathbringer (', 4.0, None)
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Brandon Sanderson', title: 'Edgedancer'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'None', series_number_from_extracted_patterns: None
+[DEBUG]   DEBUG: Using extracted series_book_num: None
+[DEBUG]   DEBUG: overall_book_title_raw: 'Edgedancer'
+[DEBUG]   DEBUG: temp_core_title (after series strip): 'Edgedancer'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): 'Edgedancer'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: 'Edgedancer'
+[DEBUG]   DEBUG: Generated logical_book_key for 'Stormlight Archive - Edgedancer [Graphic Audio]': ('Brandon Sanderson', None, None, None)
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Brandon Sanderson', title: 'Oathbringer (1 of 6)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'Oathbringer (', series_number_from_extracted_patterns: 1.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 1.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'Oathbringer (1 of 6)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '1 of 6)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '1 of 6)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '1 of 6)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'Oahbringer (1 of 6)': ('Brandon Sanderson', 'Oathbringer (', 1.0, None)
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Brandon Sanderson', title: 'Oathbringer (3 of 6)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'Oathbringer (', series_number_from_extracted_patterns: 3.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 3.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'Oathbringer (3 of 6)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '3 of 6)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '3 of 6)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '3 of 6)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'Oahbringer (3 of 6)': ('Brandon Sanderson', 'Oathbringer (', 3.0, None)
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Brandon Sanderson', title: 'Oathbringer (5 of 6)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'Oathbringer (', series_number_from_extracted_patterns: 5.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 5.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'Oathbringer (5 of 6)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '5 of 6)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '5 of 6)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '5 of 6)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'Oahbringer (5 of 6)': ('Brandon Sanderson', 'Oathbringer (', 5.0, None)
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Brandon Sanderson', title: 'Oathbringer (2 of 6)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'Oathbringer (', series_number_from_extracted_patterns: 2.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 2.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'Oathbringer (2 of 6)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '2 of 6)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '2 of 6)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '2 of 6)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'Oahbringer (2 of 6)': ('Brandon Sanderson', 'Oathbringer (', 2.0, None)
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Rhythm of War', title: 'Rhythm of War'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'None', series_number_from_extracted_patterns: None
+[DEBUG]   DEBUG: Using extracted series_book_num: None
+[DEBUG]   DEBUG: overall_book_title_raw: 'Rhythm of War'
+[DEBUG]   DEBUG: temp_core_title (after series strip): 'Rhythm of War'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): 'Rhythm of War'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: 'Rhythm of War'
+[DEBUG]   DEBUG: Generated logical_book_key for 'Stormlight Archive - Rhythm of War [Audible]': ('Brandon Sanderson', None, None, 'Audible')
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Rhythm of War (1 of 6)', title: 'Rhythm of War (1 of 6)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'Rhythm of War (', series_number_from_extracted_patterns: 1.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 1.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'Rhythm of War (1 of 6)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '1 of 6)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '1 of 6)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '1 of 6)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'Stormlight Archive - Rhythm of War [Graphic Audio]': ('Brandon Sanderson', 'Rhythm of War (', 1.0, 'Graphic Audio')
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Brandon Sanderson', title: 'Oathbringer (6 of 6)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'Oathbringer (', series_number_from_extracted_patterns: 6.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 6.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'Oathbringer (6 of 6)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '6 of 6)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '6 of 6)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '6 of 6)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'Oahbringer (6 of 6)': ('Brandon Sanderson', 'Oathbringer (', 6.0, None)
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Brandon Sanderson', title: 'The Way of Kings (1 of 5)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'The Way of Kings (', series_number_from_extracted_patterns: 1.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 1.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'The Way of Kings (1 of 5)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '1 of 5)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '1 of 5)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '1 of 5)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'The Way of Kings (Graphic Audio)(1of 5)': ('Brandon Sanderson', 'The Way of Kings (', 1.0, None)
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Brandon Sanderson', title: 'The Way of Kings (2 of 5)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'The Way of Kings (', series_number_from_extracted_patterns: 2.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 2.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'The Way of Kings (2 of 5)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '2 of 5)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '2 of 5)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '2 of 5)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'The Way of Kings (Graphic Audio)(2 of 5)': ('Brandon Sanderson', 'The Way of Kings (', 2.0, None)
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Brandon Sanderson', title: 'The Way of Kings (3 of 5)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'The Way of Kings (', series_number_from_extracted_patterns: 3.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 3.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'The Way of Kings (3 of 5)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '3 of 5)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '3 of 5)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '3 of 5)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'The Way of Kings (Graphic Audio)(3 of 5)': ('Brandon Sanderson', 'The Way of Kings (', 3.0, None)
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Brandon Sanderson', title: 'The Way of Kings (4 of 5)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'The Way of Kings (', series_number_from_extracted_patterns: 4.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 4.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'The Way of Kings (4 of 5)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '4 of 5)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '4 of 5)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '4 of 5)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'The Way of Kings (Graphic Audio)(4 of 5)': ('Brandon Sanderson', 'The Way of Kings (', 4.0, None)
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Brandon Sanderson', title: 'The Way of Kings (5 of 5)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'The Way of Kings (', series_number_from_extracted_patterns: 5.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 5.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'The Way of Kings (5 of 5)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '5 of 5)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '5 of 5)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '5 of 5)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'The Way of Kings (Graphic Audio)(5 of 5)': ('Brandon Sanderson', 'The Way of Kings (', 5.0, None)
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Wind and Truth (2 of 5)', title: 'Wind and Truth (2 of 5)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'Wind and Truth (', series_number_from_extracted_patterns: 2.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 2.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'Wind and Truth (2 of 5)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '2 of 5)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '2 of 5)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '2 of 5)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'Stormlight Archive - Wind and Truth [Graphic Audio]': ('Brandon Sanderson', 'Wind and Truth (', 2.0, 'Graphic Audio')
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Brandon Sanderson', title: 'Words of Radiance (5 of 5)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'Words of Radiance (', series_number_from_extracted_patterns: 5.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 5.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'Words of Radiance (5 of 5)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '5 of 5)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '5 of 5)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '5 of 5)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'Words of Radiance (5of5)': ('Brandon Sanderson', 'Words of Radiance (', 5.0, None)
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Brandon Sanderson', title: 'Words of Radiance (2of5)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'Words of Radiance (', series_number_from_extracted_patterns: 2.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 2.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'Words of Radiance (2of5)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '2of5)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '2of5)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '2of5)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'Words of Radiance (2of5)': ('Brandon Sanderson', 'Words of Radiance (', 2.0, 'Graphic Audio')
+[DEBUG]   DEBUG: Before extract_series_info - grouping: 'None', album: 'Brandon Sanderson', title: 'Words of Radiance (1 of 5)'
+[DEBUG]   DEBUG: After extract_series_info - sanitized_series_name: 'Words of Radiance (', series_number_from_extracted_patterns: 1.0
+[DEBUG]   DEBUG: Using extracted series_book_num: 1.0
+[DEBUG]   DEBUG: overall_book_title_raw: 'Words of Radiance (1 of 5)'
+[DEBUG]   DEBUG: temp_core_title (after series strip): '1 of 5)'
+[DEBUG]   DEBUG: final_core_book_title_for_grouping (after part strip): '1 of 5)'
+[DEBUG]   DEBUG: sanitized_core_book_title_for_grouping: '1 of 5)'
+[DEBUG]   DEBUG: Generated logical_book_key for 'Words of Radiance (1 of 5)': ('Brandon Sanderson', 'Words of Radiance (', 1.0, None)
+[INFO] Grouped 19 physical folders into 19 initial logical book keys (including publisher).
+[INFO] Identified 1 ambiguous (author, name) pairs for final folder naming.
+[DEBUG]   Ambiguous pairs: {('Brandon Sanderson', 'Words of Radiance (')}
+[DEBUG]   DEBUG: series_max_numbers after final logical grouping: {'Oathbringer (': 6.0, 'Rhythm of War (': 1.0, 'The Way of Kings (': 5.0, 'Wind and Truth (': 2.0, 'Words of Radiance (': 5.0}
+[INFO] Found 19 unique physical book folders in source. 19 logical books (including multi-part parents) will be processed.
+[INFO] Using 8 processes for parallel organization.
+[INFO]   Info: Created series folder: 'Brandon Sanderson/Oathbringer ('
+[INFO]   Info: Created series folder: 'Brandon Sanderson/Oathbringer ('
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/Dawnshard'
+[INFO]   Info: Created series folder: 'Brandon Sanderson/Oathbringer ('
+[INFO]   Info: Created series folder: 'Brandon Sanderson/Oathbringer ('
+[INFO]   Info: Created series folder: 'Brandon Sanderson/Oathbringer ('
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/Oathbringer (/4 - 4 of 6)'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/Edgedancer'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Dawnshard.m4b' to 'Brandon Sanderson/Dawnshard/Dawnshard.m4b'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/Oathbringer (/1 - 1 of 6)'
+[INFO]   Info: Hard-linked '4.mp3' to 'Brandon Sanderson/Oathbringer (/4 - 4 of 6)/4 of 6).mp3'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/Rhythm of War'
+[INFO]   Info: Hard-linked 'The Stormlight Archive [Edgedancer] [01].mp3' to 'Brandon Sanderson/Edgedancer/Edgedancer Track 01.mp3'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/Oathbringer (/3 - 3 of 6)'
+[INFO]   Info: Hard-linked '01 - STORMLIGHT0301P01.mp3' to 'Brandon Sanderson/Oathbringer (/1 - 1 of 6)/1 of 6) Track 01.mp3'
+[INFO]   Info: Hard-linked 'The Stormlight Archive [Edgedancer] [02].mp3' to 'Brandon Sanderson/Edgedancer/Edgedancer Track 02.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Rhythm of War (0).m4b' to 'Brandon Sanderson/Rhythm of War/Rhythm of War.m4b'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/Oathbringer (/5 - 5 of 6)'
+[INFO]   Organized logical book/part '4 of 6)' into 'Brandon Sanderson/Oathbringer (/4 - 4 of 6)'. Hard-linked 1 files.
+[INFO]   Info: Hard-linked 'Dawnshard꞉ Stormlight Archive.jpg' as primary cover to 'Brandon Sanderson/Dawnshard/Dawnshard Cover.jpg'
+[INFO]   Organized logical book/part 'Dawnshard' into 'Brandon Sanderson/Dawnshard'. Hard-linked 2 files.
+[INFO]   Info: Hard-linked '3.mp3' to 'Brandon Sanderson/Oathbringer (/3 - 3 of 6)/3 of 6).mp3'
+[INFO]   Info: Hard-linked '02 - STORMLIGHT0301P02.mp3' to 'Brandon Sanderson/Oathbringer (/1 - 1 of 6)/1 of 6) Track 02.mp3'
+[INFO]   Info: Hard-linked 'The Stormlight Archive [Edgedancer] [03].mp3' to 'Brandon Sanderson/Edgedancer/Edgedancer Track 03.mp3'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/Oathbringer (/2 - 2 of 6)'
+[INFO]   Info: Created series folder: 'Brandon Sanderson/Rhythm of War ('
+[INFO]   Info: Hard-linked '5.mp3' to 'Brandon Sanderson/Oathbringer (/5 - 5 of 6)/5 of 6).mp3'
+[INFO]   Info: Hard-linked '03 - STORMLIGHT0301P03.mp3' to 'Brandon Sanderson/Oathbringer (/1 - 1 of 6)/1 of 6) Track 03.mp3'
+[INFO]   Info: Created series folder: 'Brandon Sanderson/Oathbringer ('
+[INFO]   Organized logical book/part '3 of 6)' into 'Brandon Sanderson/Oathbringer (/3 - 3 of 6)'. Hard-linked 1 files.
+[INFO]   Info: Hard-linked 'STORMLIGHT0302 - 001.mp3' to 'Brandon Sanderson/Oathbringer (/2 - 2 of 6)/2 of 6) Track 01.mp3'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/Rhythm of War (/1 - 1 of 6)'
+[INFO]   Info: Hard-linked '04 - STORMLIGHT0301P04.mp3' to 'Brandon Sanderson/Oathbringer (/1 - 1 of 6)/1 of 6) Track 04.mp3'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/Oathbringer (/6 - 6 of 6)'
+[INFO]   Organized logical book/part '5 of 6)' into 'Brandon Sanderson/Oathbringer (/5 - 5 of 6)'. Hard-linked 1 files.
+[INFO]   Info: Created series folder: 'Brandon Sanderson/The Way of Kings ('
+[INFO]   Info: Hard-linked 'STORMLIGHT0302 - 002.mp3' to 'Brandon Sanderson/Oathbringer (/2 - 2 of 6)/2 of 6) Track 02.mp3'
+[INFO]   Info: Created series folder: 'Brandon Sanderson/The Way of Kings ('
+[INFO]   Info: Hard-linked extra file 'Brandon Sanderson - Rhythm of War (1).epub' to 'Brandon Sanderson/Rhythm of War/Extras/Brandon Sanderson - Rhythm of War (1).epub'
+[INFO]   Organized logical book/part 'Rhythm of War' into 'Brandon Sanderson/Rhythm of War'. Hard-linked 2 files.
+[INFO]   Info: Created series folder: 'Brandon Sanderson/The Way of Kings ('
+[INFO]   Info: Hard-linked 'STORMLIGHT0401.m4b' to 'Brandon Sanderson/Rhythm of War (/1 - 1 of 6)/1 of 6).m4b'
+[INFO]   Info: Hard-linked '05 - STORMLIGHT0301P05.mp3' to 'Brandon Sanderson/Oathbringer (/1 - 1 of 6)/1 of 6) Track 05.mp3'
+[INFO]   Info: Hard-linked '6.mp3' to 'Brandon Sanderson/Oathbringer (/6 - 6 of 6)/6 of 6).mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0302 - 003.mp3' to 'Brandon Sanderson/Oathbringer (/2 - 2 of 6)/2 of 6) Track 03.mp3'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)'
+[INFO]   Info: Hard-linked '06 - STORMLIGHT0301P06.mp3' to 'Brandon Sanderson/Oathbringer (/1 - 1 of 6)/1 of 6) Track 06.mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0302 - 004.mp3' to 'Brandon Sanderson/Oathbringer (/2 - 2 of 6)/2 of 6) Track 04.mp3'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (1).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 01.mp3'
+[INFO]   Organized logical book/part '6 of 6)' into 'Brandon Sanderson/Oathbringer (/6 - 6 of 6)'. Hard-linked 1 files.
+[INFO]   Info: Hard-linked extra file 'The Stormlight Archive [Edgedancer].txt' to 'Brandon Sanderson/Edgedancer/Extras/The Stormlight Archive [Edgedancer].txt'
+[INFO]   Organized logical book/part 'Edgedancer' into 'Brandon Sanderson/Edgedancer'. Hard-linked 4 files.
+[INFO]   Info: Created series folder: 'Brandon Sanderson/The Way of Kings ('
+[INFO]   Info: Created series folder: 'Brandon Sanderson/The Way of Kings ('
+[INFO]   Info: Hard-linked 'STORMLIGHT0302 - 005.mp3' to 'Brandon Sanderson/Oathbringer (/2 - 2 of 6)/2 of 6) Track 05.mp3'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/The Way of Kings (/3 - 3 of 5)'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (1).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 01.mp3'
+[INFO]   Info: Hard-linked 'Rhythm of War The Stormlight Archive, Book 4.jpg' as primary cover to 'Brandon Sanderson/Rhythm of War (/1 - 1 of 6)/1 of 6) Cover.jpg'
+[INFO]   Organized logical book/part '1 of 6)' into 'Brandon Sanderson/Rhythm of War (/1 - 1 of 6)'. Hard-linked 2 files.
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (10).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 10.mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0302 - 006.mp3' to 'Brandon Sanderson/Oathbringer (/2 - 2 of 6)/2 of 6) Track 06.mp3'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)'
+[INFO]   Info: Hard-linked 'STORMLIGHT0103P01.mp3' to 'Brandon Sanderson/The Way of Kings (/3 - 3 of 5)/3 of 5) Track 01.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (10).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 10.mp3'
+[INFO]   Info: Created series folder: 'Brandon Sanderson/Wind and Truth ('
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (11).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 11.mp3'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (1).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 01.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (12).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 12.mp3'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/Wind and Truth (/2 - 2 of 5)'
+[INFO]   Info: Hard-linked 'STORMLIGHT0103P02.mp3' to 'Brandon Sanderson/The Way of Kings (/3 - 3 of 5)/3 of 5) Track 02.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (11).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 11.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (1).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 01.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (10).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 10.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (13).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 13.mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0103P03.mp3' to 'Brandon Sanderson/The Way of Kings (/3 - 3 of 5)/3 of 5) Track 03.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (12).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 12.mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0501.m4b' to 'Brandon Sanderson/Wind and Truth (/2 - 2 of 5)/2 of 5) Track 02.m4b'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (14).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 14.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (10).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 10.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (11).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 11.mp3'
+[INFO]   Info: Hard-linked 'folder.jpg' as primary cover to 'Brandon Sanderson/Oathbringer (/1 - 1 of 6)/1 of 6) Cover.jpg'
+[INFO]   Organized logical book/part '1 of 6)' into 'Brandon Sanderson/Oathbringer (/1 - 1 of 6)'. Hard-linked 7 files.
+[INFO]   Info: Hard-linked 'STORMLIGHT0103P04.mp3' to 'Brandon Sanderson/The Way of Kings (/3 - 3 of 5)/3 of 5) Track 04.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (13).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 13.mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0502.m4b' to 'Brandon Sanderson/Wind and Truth (/2 - 2 of 5)/2 of 5) Track 01.m4b'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (12).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 12.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (15).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 15.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (11).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 11.mp3'
+[INFO]   Info: Created series folder: 'Brandon Sanderson/Words of Radiance ('
+[INFO]   Info: Hard-linked 'STORMLIGHT0103P05.mp3' to 'Brandon Sanderson/The Way of Kings (/3 - 3 of 5)/3 of 5) Track 07.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (14).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 14.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (13).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 13.mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0103P06.mp3' to 'Brandon Sanderson/The Way of Kings (/3 - 3 of 5)/3 of 5) Track 05.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (16).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 16.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (15).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 15.mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0302.jpg' as primary cover to 'Brandon Sanderson/Oathbringer (/2 - 2 of 6)/2 of 6) Cover.jpg'
+[INFO]   Organized logical book/part '2 of 6)' into 'Brandon Sanderson/Oathbringer (/2 - 2 of 6)'. Hard-linked 7 files.
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (12).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 12.mp3'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/Words of Radiance (/5 - 5 of 5)'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (14).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 14.mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0103P07.mp3' to 'Brandon Sanderson/The Way of Kings (/3 - 3 of 5)/3 of 5) Track 06.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (2).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 02.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (16).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 16.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (13).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 13.mp3'
+[INFO]   Info: Created series folder: 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)'
+[INFO]   Info: Hard-linked 'cover.jpg' as primary cover to 'Brandon Sanderson/Wind and Truth (/2 - 2 of 5)/2 of 5) Cover.jpg'
+[INFO]   Organized logical book/part '2 of 5)' into 'Brandon Sanderson/Wind and Truth (/2 - 2 of 5)'. Hard-linked 3 files.
+[INFO]   Info: Hard-linked 'STORMLIGHT0205P01.mp3' to 'Brandon Sanderson/Words of Radiance (/5 - 5 of 5)/5 of 5) Track 01.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (15).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 15.mp3'
+[INFO]   Info: Created series folder: 'Brandon Sanderson/Words of Radiance ('
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (3).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 03.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (17).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 17.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (14).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 14.mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0205P02.mp3' to 'Brandon Sanderson/Words of Radiance (/5 - 5 of 5)/5 of 5) Track 02.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (16).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 16.mp3'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)'
+[INFO]   Info: Created book/part folder: 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (4).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 04.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (18).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 18.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (15).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 15.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (17).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 17.mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0205P03.mp3' to 'Brandon Sanderson/Words of Radiance (/5 - 5 of 5)/5 of 5) Track 03.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 01 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 01.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 001 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 001.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (5).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 05.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (19).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 19.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (16).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 16.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (18).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 18.mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0205P04.mp3' to 'Brandon Sanderson/Words of Radiance (/5 - 5 of 5)/5 of 5) Track 04.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 02 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 02.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 002 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 002.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (6).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 06.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (2).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 02.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (17).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 17.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (19).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 19.mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0205P05.mp3' to 'Brandon Sanderson/Words of Radiance (/5 - 5 of 5)/5 of 5) Track 05.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 03 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 03.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 003 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 003.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (7).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 07.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (20).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 20.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (18).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 18.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (2).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 02.mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0205P06.mp3' to 'Brandon Sanderson/Words of Radiance (/5 - 5 of 5)/5 of 5) Track 06.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 04 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 04.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 004 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 004.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (8).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 08.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (3).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 03.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (19).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 19.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (3).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 03.mp3'
+[INFO]   Info: Hard-linked 'The Way of Kings (3 of 5) .jpg' as primary cover to 'Brandon Sanderson/The Way of Kings (/3 - 3 of 5)/3 of 5) Cover.jpg'
+[INFO]   Organized logical book/part '3 of 5)' into 'Brandon Sanderson/The Way of Kings (/3 - 3 of 5)'. Hard-linked 8 files.
+[INFO]   Info: Hard-linked 'STORMLIGHT0205P07.mp3' to 'Brandon Sanderson/Words of Radiance (/5 - 5 of 5)/5 of 5) Track 07.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 05 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 05.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 005 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 005.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (2 of 5) (9).mp3' to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Track 09.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (4).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 04.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (2).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 02.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (4).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 04.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 06 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 06.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 006 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 006.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (5).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 05.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (20).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 20.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (5).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 05.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 07 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 07.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 007 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 007.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (6).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 06.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (21).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 21.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (6).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 06.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 08 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 08.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 008 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 008.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (7).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 07.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (22).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 22.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (7).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 07.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 09 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 09.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 009 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 009.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (8).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 08.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (23).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 23.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (8).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 08.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 10 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 10.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 010 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 010.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (1 of 5) (9).mp3' to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Track 09.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (3).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 03.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (4 of 5) (9).mp3' to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Track 09.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 011 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 011.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (4).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 04.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 11 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 11.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 012 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 012.mp3'
+[INFO]   Info: Hard-linked 'stormlight0205_1.jpg' as primary cover to 'Brandon Sanderson/Words of Radiance (/5 - 5 of 5)/5 of 5) Cover.jpg'
+[INFO]   Organized logical book/part '5 of 5)' into 'Brandon Sanderson/Words of Radiance (/5 - 5 of 5)'. Hard-linked 8 files.
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (5).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 05.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 12 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 12.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 013 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 013.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (6).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 06.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 13 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 13.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 014 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 014.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (7).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 07.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 14 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 14.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 015 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 015.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (8).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 08.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 15 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 15.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 016 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 016.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - The Way of Kings (5 of 5) (9).mp3' to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Track 09.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 16 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 16.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 017 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 017.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 17 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 17.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 018 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 018.mp3'
+[INFO]   Info: Hard-linked 'stormlight0102_1.jpg' as primary cover to 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)/2 of 5) Cover.jpg'
+[INFO]   Organized logical book/part '2 of 5)' into 'Brandon Sanderson/The Way of Kings (/2 - 2 of 5)'. Hard-linked 17 files.
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 18 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 18.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 019 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 019.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 19 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 19.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 020 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 020.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 20 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 20.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 021 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 021.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 21 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 21.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 022 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 022.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 22 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 22.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 023 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 023.mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0104 - GraphicAudio.jpg' as primary cover to 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)/4 of 5) Cover.jpg'
+[INFO]   Organized logical book/part '4 of 5)' into 'Brandon Sanderson/The Way of Kings (/4 - 4 of 5)'. Hard-linked 20 files.
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 23 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 23.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 024 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 024.mp3'
+[INFO]   Info: Hard-linked 'The Way of Kings.jpg' as primary cover to 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)/1 of 5) Cover.jpg'
+[INFO]   Organized logical book/part '1 of 5)' into 'Brandon Sanderson/The Way of Kings (/1 - 1 of 5)'. Hard-linked 21 files.
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 24 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 24.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 025 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 025.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 25 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 25.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 026 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 026.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 26 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 26.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 027 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 027.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 27 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 27.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 028 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 028.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 28 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 28.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 029 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 029.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 29 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 29.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 030 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 030.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (2of5) Part 30 of 30.mp3' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Track 30.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 031 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 031.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 032 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 032.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 033 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 033.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 034 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 034.mp3'
+[INFO]   Info: Hard-linked 'STORMLIGHT0105.jpg' as primary cover to 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)/5 of 5) Cover.jpg'
+[INFO]   Organized logical book/part '5 of 5)' into 'Brandon Sanderson/The Way of Kings (/5 - 5 of 5)'. Hard-linked 24 files.
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 035 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 035.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 036 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 036.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 037 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 037.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 038 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 038.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 039 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 039.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 040 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 040.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 041 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 041.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 042 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 042.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 043 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 043.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 044 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 044.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 045 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 045.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 046 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 046.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 047 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 047.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 048 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 048.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 049 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 049.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 050 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 050.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 051 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 051.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 052 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 052.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 053 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 053.mp3'
+[INFO]   Info: Hard-linked 'playlist.ll' to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/playlist.ll'
+[INFO]   Info: Hard-linked 'Words of Radiance (2of5) - Brandon Sanderson.jpg' as primary cover to 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)/2of5) Cover.jpg'
+[INFO]   Organized logical book/part '2of5)' into 'Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5)'. Hard-linked 32 files.
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 054 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 054.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 055 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 055.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 056 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 056.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 057 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 057.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 058 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 058.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 059 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 059.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 060 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 060.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 061 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 061.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 062 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 062.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 063 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 063.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 064 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 064.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 065 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 065.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 066 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 066.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 067 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 067.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 068 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 068.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 069 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 069.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 070 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 070.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 071 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 071.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 072 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 072.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 073 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 073.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 074 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 074.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 075 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 075.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 076 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 076.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 077 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 077.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 078 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 078.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 079 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 079.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 080 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 080.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 081 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 081.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 082 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 082.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 083 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 083.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 084 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 084.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 085 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 085.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 086 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 086.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 087 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 087.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 088 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 088.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 089 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 089.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 090 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 090.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 091 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 091.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 092 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 092.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 093 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 093.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 094 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 094.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 095 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 095.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 096 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 096.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 097 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 097.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 098 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 098.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 099 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 099.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 100 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 100.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 101 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 101.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 102 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 102.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 103 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 103.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 104 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 104.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 105 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 105.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 106 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 106.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 107 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 107.mp3'
+[INFO]   Info: Hard-linked 'Brandon Sanderson - Words of Radiance (1 of 5) Part 108 of 108.mp3' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/1 of 5) Track 108.mp3'
+[INFO]   Info: Hard-linked 'playlist.ll' to 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)/playlist.ll'
+[INFO]   Organized logical book/part '1 of 5)' into 'Brandon Sanderson/Words of Radiance (/1 - 1 of 5)'. Hard-linked 109 files.
+[INFO] 
+--- Sweeping for unorganized files to move to _leftbehind ---
+[INFO] Sweep complete. Found and hard-linked 0 files to '/media/audiobooks/scripted_leftbehind'.
+[INFO] ------------------------------------------------------------
+[INFO] Organization complete. Unique books organized: 18
+[INFO] Total files hard-linked to organized directory: 270
+[INFO] Total files hard-linked to leftbehind directory: 0
+[INFO] Total errors encountered during processing: 0
+[INFO] New organized library root is: '/media/audiobooks/scripted_organized'
+[INFO] Files not hard-linked to the organized directory can be found in: '/media/audiobooks/scripted_leftbehind'
+[INFO] Total execution time: 0h 0m 10.10s
+[INFO] Please verify the new structure. Remember that hard links share data with originals.
+[INFO] --- Generating ls -R output for '/media/audiobooks/scripted_organized' ---
+[INFO] ls -R output for '/media/audiobooks/scripted_organized' saved to: '/media/audiobooks/.audiobook_organizer_data/organized_ls_result.txt'
+[INFO] --- Generating ls -R output for '/media/audiobooks/scripted_leftbehind' ---
+[INFO] ls -R output for '/media/audiobooks/scripted_leftbehind' saved to: '/media/audiobooks/.audiobook_organizer_data/leftbehind_ls_result.txt'
+[INFO] Saved updated metadata cache to '/media/audiobooks/.audiobook_organizer_data/audiobook_metadata_cache.json'.

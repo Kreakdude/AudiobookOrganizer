@@ -1,0 +1,355 @@
+/media/audiobooks/scripted_organized:
+Brandon Sanderson
+
+/media/audiobooks/scripted_organized/Brandon Sanderson:
+Dawnshard
+Edgedancer
+Oathbringer (
+Rhythm of War
+Rhythm of War (
+The Way of Kings (
+Wind and Truth (
+Words of Radiance (
+Words of Radiance ( (Published by Graphic Audio)
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Dawnshard:
+Dawnshard Cover.jpg
+Dawnshard.m4b
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Edgedancer:
+Edgedancer Track 01.mp3
+Edgedancer Track 02.mp3
+Edgedancer Track 03.mp3
+Extras
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Edgedancer/Extras:
+The Stormlight Archive [Edgedancer].txt
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Oathbringer (:
+1 - 1 of 6)
+2 - 2 of 6)
+3 - 3 of 6)
+4 - 4 of 6)
+5 - 5 of 6)
+6 - 6 of 6)
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Oathbringer (/1 - 1 of 6):
+1 of 6) Cover.jpg
+1 of 6) Track 01.mp3
+1 of 6) Track 02.mp3
+1 of 6) Track 03.mp3
+1 of 6) Track 04.mp3
+1 of 6) Track 05.mp3
+1 of 6) Track 06.mp3
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Oathbringer (/2 - 2 of 6):
+2 of 6) Cover.jpg
+2 of 6) Track 01.mp3
+2 of 6) Track 02.mp3
+2 of 6) Track 03.mp3
+2 of 6) Track 04.mp3
+2 of 6) Track 05.mp3
+2 of 6) Track 06.mp3
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Oathbringer (/3 - 3 of 6):
+3 of 6).mp3
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Oathbringer (/4 - 4 of 6):
+4 of 6).mp3
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Oathbringer (/5 - 5 of 6):
+5 of 6).mp3
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Oathbringer (/6 - 6 of 6):
+6 of 6).mp3
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Rhythm of War:
+Extras
+Rhythm of War.m4b
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Rhythm of War/Extras:
+Brandon Sanderson - Rhythm of War (1).epub
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Rhythm of War (:
+1 - 1 of 6)
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Rhythm of War (/1 - 1 of 6):
+1 of 6) Cover.jpg
+1 of 6).m4b
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Way of Kings (:
+1 - 1 of 5)
+2 - 2 of 5)
+3 - 3 of 5)
+4 - 4 of 5)
+5 - 5 of 5)
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Way of Kings (/1 - 1 of 5):
+1 of 5) Cover.jpg
+1 of 5) Track 01.mp3
+1 of 5) Track 02.mp3
+1 of 5) Track 03.mp3
+1 of 5) Track 04.mp3
+1 of 5) Track 05.mp3
+1 of 5) Track 06.mp3
+1 of 5) Track 07.mp3
+1 of 5) Track 08.mp3
+1 of 5) Track 09.mp3
+1 of 5) Track 10.mp3
+1 of 5) Track 11.mp3
+1 of 5) Track 12.mp3
+1 of 5) Track 13.mp3
+1 of 5) Track 14.mp3
+1 of 5) Track 15.mp3
+1 of 5) Track 16.mp3
+1 of 5) Track 17.mp3
+1 of 5) Track 18.mp3
+1 of 5) Track 19.mp3
+1 of 5) Track 20.mp3
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Way of Kings (/2 - 2 of 5):
+2 of 5) Cover.jpg
+2 of 5) Track 01.mp3
+2 of 5) Track 02.mp3
+2 of 5) Track 03.mp3
+2 of 5) Track 04.mp3
+2 of 5) Track 05.mp3
+2 of 5) Track 06.mp3
+2 of 5) Track 07.mp3
+2 of 5) Track 08.mp3
+2 of 5) Track 09.mp3
+2 of 5) Track 10.mp3
+2 of 5) Track 11.mp3
+2 of 5) Track 12.mp3
+2 of 5) Track 13.mp3
+2 of 5) Track 14.mp3
+2 of 5) Track 15.mp3
+2 of 5) Track 16.mp3
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Way of Kings (/3 - 3 of 5):
+3 of 5) Cover.jpg
+3 of 5) Track 01.mp3
+3 of 5) Track 02.mp3
+3 of 5) Track 03.mp3
+3 of 5) Track 04.mp3
+3 of 5) Track 05.mp3
+3 of 5) Track 06.mp3
+3 of 5) Track 07.mp3
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Way of Kings (/4 - 4 of 5):
+4 of 5) Cover.jpg
+4 of 5) Track 01.mp3
+4 of 5) Track 02.mp3
+4 of 5) Track 03.mp3
+4 of 5) Track 04.mp3
+4 of 5) Track 05.mp3
+4 of 5) Track 06.mp3
+4 of 5) Track 07.mp3
+4 of 5) Track 08.mp3
+4 of 5) Track 09.mp3
+4 of 5) Track 10.mp3
+4 of 5) Track 11.mp3
+4 of 5) Track 12.mp3
+4 of 5) Track 13.mp3
+4 of 5) Track 14.mp3
+4 of 5) Track 15.mp3
+4 of 5) Track 16.mp3
+4 of 5) Track 17.mp3
+4 of 5) Track 18.mp3
+4 of 5) Track 19.mp3
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/The Way of Kings (/5 - 5 of 5):
+5 of 5) Cover.jpg
+5 of 5) Track 01.mp3
+5 of 5) Track 02.mp3
+5 of 5) Track 03.mp3
+5 of 5) Track 04.mp3
+5 of 5) Track 05.mp3
+5 of 5) Track 06.mp3
+5 of 5) Track 07.mp3
+5 of 5) Track 08.mp3
+5 of 5) Track 09.mp3
+5 of 5) Track 10.mp3
+5 of 5) Track 11.mp3
+5 of 5) Track 12.mp3
+5 of 5) Track 13.mp3
+5 of 5) Track 14.mp3
+5 of 5) Track 15.mp3
+5 of 5) Track 16.mp3
+5 of 5) Track 17.mp3
+5 of 5) Track 18.mp3
+5 of 5) Track 19.mp3
+5 of 5) Track 20.mp3
+5 of 5) Track 21.mp3
+5 of 5) Track 22.mp3
+5 of 5) Track 23.mp3
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Wind and Truth (:
+2 - 2 of 5)
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Wind and Truth (/2 - 2 of 5):
+2 of 5) Cover.jpg
+2 of 5) Track 01.m4b
+2 of 5) Track 02.m4b
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Words of Radiance (:
+1 - 1 of 5)
+5 - 5 of 5)
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Words of Radiance (/1 - 1 of 5):
+1 of 5) Track 001.mp3
+1 of 5) Track 002.mp3
+1 of 5) Track 003.mp3
+1 of 5) Track 004.mp3
+1 of 5) Track 005.mp3
+1 of 5) Track 006.mp3
+1 of 5) Track 007.mp3
+1 of 5) Track 008.mp3
+1 of 5) Track 009.mp3
+1 of 5) Track 010.mp3
+1 of 5) Track 011.mp3
+1 of 5) Track 012.mp3
+1 of 5) Track 013.mp3
+1 of 5) Track 014.mp3
+1 of 5) Track 015.mp3
+1 of 5) Track 016.mp3
+1 of 5) Track 017.mp3
+1 of 5) Track 018.mp3
+1 of 5) Track 019.mp3
+1 of 5) Track 020.mp3
+1 of 5) Track 021.mp3
+1 of 5) Track 022.mp3
+1 of 5) Track 023.mp3
+1 of 5) Track 024.mp3
+1 of 5) Track 025.mp3
+1 of 5) Track 026.mp3
+1 of 5) Track 027.mp3
+1 of 5) Track 028.mp3
+1 of 5) Track 029.mp3
+1 of 5) Track 030.mp3
+1 of 5) Track 031.mp3
+1 of 5) Track 032.mp3
+1 of 5) Track 033.mp3
+1 of 5) Track 034.mp3
+1 of 5) Track 035.mp3
+1 of 5) Track 036.mp3
+1 of 5) Track 037.mp3
+1 of 5) Track 038.mp3
+1 of 5) Track 039.mp3
+1 of 5) Track 040.mp3
+1 of 5) Track 041.mp3
+1 of 5) Track 042.mp3
+1 of 5) Track 043.mp3
+1 of 5) Track 044.mp3
+1 of 5) Track 045.mp3
+1 of 5) Track 046.mp3
+1 of 5) Track 047.mp3
+1 of 5) Track 048.mp3
+1 of 5) Track 049.mp3
+1 of 5) Track 050.mp3
+1 of 5) Track 051.mp3
+1 of 5) Track 052.mp3
+1 of 5) Track 053.mp3
+1 of 5) Track 054.mp3
+1 of 5) Track 055.mp3
+1 of 5) Track 056.mp3
+1 of 5) Track 057.mp3
+1 of 5) Track 058.mp3
+1 of 5) Track 059.mp3
+1 of 5) Track 060.mp3
+1 of 5) Track 061.mp3
+1 of 5) Track 062.mp3
+1 of 5) Track 063.mp3
+1 of 5) Track 064.mp3
+1 of 5) Track 065.mp3
+1 of 5) Track 066.mp3
+1 of 5) Track 067.mp3
+1 of 5) Track 068.mp3
+1 of 5) Track 069.mp3
+1 of 5) Track 070.mp3
+1 of 5) Track 071.mp3
+1 of 5) Track 072.mp3
+1 of 5) Track 073.mp3
+1 of 5) Track 074.mp3
+1 of 5) Track 075.mp3
+1 of 5) Track 076.mp3
+1 of 5) Track 077.mp3
+1 of 5) Track 078.mp3
+1 of 5) Track 079.mp3
+1 of 5) Track 080.mp3
+1 of 5) Track 081.mp3
+1 of 5) Track 082.mp3
+1 of 5) Track 083.mp3
+1 of 5) Track 084.mp3
+1 of 5) Track 085.mp3
+1 of 5) Track 086.mp3
+1 of 5) Track 087.mp3
+1 of 5) Track 088.mp3
+1 of 5) Track 089.mp3
+1 of 5) Track 090.mp3
+1 of 5) Track 091.mp3
+1 of 5) Track 092.mp3
+1 of 5) Track 093.mp3
+1 of 5) Track 094.mp3
+1 of 5) Track 095.mp3
+1 of 5) Track 096.mp3
+1 of 5) Track 097.mp3
+1 of 5) Track 098.mp3
+1 of 5) Track 099.mp3
+1 of 5) Track 100.mp3
+1 of 5) Track 101.mp3
+1 of 5) Track 102.mp3
+1 of 5) Track 103.mp3
+1 of 5) Track 104.mp3
+1 of 5) Track 105.mp3
+1 of 5) Track 106.mp3
+1 of 5) Track 107.mp3
+1 of 5) Track 108.mp3
+playlist.ll
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Words of Radiance (/5 - 5 of 5):
+5 of 5) Cover.jpg
+5 of 5) Track 01.mp3
+5 of 5) Track 02.mp3
+5 of 5) Track 03.mp3
+5 of 5) Track 04.mp3
+5 of 5) Track 05.mp3
+5 of 5) Track 06.mp3
+5 of 5) Track 07.mp3
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio):
+2 - 2of5)
+
+/media/audiobooks/scripted_organized/Brandon Sanderson/Words of Radiance ( (Published by Graphic Audio)/2 - 2of5):
+2of5) Cover.jpg
+2of5) Track 01.mp3
+2of5) Track 02.mp3
+2of5) Track 03.mp3
+2of5) Track 04.mp3
+2of5) Track 05.mp3
+2of5) Track 06.mp3
+2of5) Track 07.mp3
+2of5) Track 08.mp3
+2of5) Track 09.mp3
+2of5) Track 10.mp3
+2of5) Track 11.mp3
+2of5) Track 12.mp3
+2of5) Track 13.mp3
+2of5) Track 14.mp3
+2of5) Track 15.mp3
+2of5) Track 16.mp3
+2of5) Track 17.mp3
+2of5) Track 18.mp3
+2of5) Track 19.mp3
+2of5) Track 20.mp3
+2of5) Track 21.mp3
+2of5) Track 22.mp3
+2of5) Track 23.mp3
+2of5) Track 24.mp3
+2of5) Track 25.mp3
+2of5) Track 26.mp3
+2of5) Track 27.mp3
+2of5) Track 28.mp3
+2of5) Track 29.mp3
+2of5) Track 30.mp3
+playlist.ll

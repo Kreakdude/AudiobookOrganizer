@@ -1,0 +1,11 @@
+I exucute the script like this
+
+python /media/audiobooks/.audiobook_organizer_data/source/main.py /media/audiobooks/scripted --force-empty
+
+The scripts make hard links to the files from the /media/audiobooks/scripted/ path to /media/audiobooks/scripted_organized/ and /media/audiobooks/scripted_leftbehind/ directories.
+
+The script outputs the results of an ls command at the _leftbehind directory compared against the _goal file should result in no differences.
+
+In order to achieve this the script will have to read metadata (which will be cached) and use algorithms to achieve the folder structures and naming conventions as outlined in the example _goal file. The implementation should work on many sets of data as I have many other audiobook authors and series. Do not resort to parsing file names for common syntaxes without asking me first. For example, I've see the metadata series name often has a " #4" syntax example. So with permission you could ask me to rely on that " #" syntax to serve as a string split delimter token. Also, a good algorithm is to rely on ambiguitiy resolution. If two books' have the exact author and series same name, resolve that by appending the publisher info to the series. If there is still ambiguity assume they are parts of books in the same series. Consider corroborating that assumption with common syntax like Disc, vol, volume, part, etc. Determine the parent folder name of the book folders that are parts of the same book by finding a substring match among all the parts' book titles.
+
+I have provided an example of what the ls output will be of the source directory in a file. Along with that there's a cache file so you can know what the cache would be if you ran that part of the script. Together with the example inputs and outputs, the current state of the scripts, and everything I've provided there's little to no reason you can't make a single iterative modification to the scripts. You can test it yourself, no need to ask me to test it more than once. I want you to build from where I'm at, which means the number of lines per file shouldn't drastically decrease.
